@@ -1,0 +1,32 @@
+.section__container-left__percentage:not(:last-child) {
+    background: var(--very-dark-cyan);
+    padding: 0.2rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.section__container-left__percentage:last-child {
+    background: var(--light-grayish-cyan-2);
+    padding: 0.2rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.section__container-left__percentage:not(:last-child) p {
+    color: var(--white);
+}
+
+.section__container-left__percentage:last-child p {
+    color: var(--dark-grayish-cyan);
+}
+
+.section__container-left__percentage:hover {
+    cursor: pointer;
+    background: var(--strong-cyan);
+}
+
+@media screen and (max-width: 54rem) {
+    .section__container-left__percentage p {
+        font-size: 1.4rem;
+        padding-block: 0.3rem;
+    }
+
+}
