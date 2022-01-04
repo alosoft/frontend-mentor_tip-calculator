@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, p {
 
 .section__container {
   width: 45rem;
-  min-height: 50vh;
+  height: 23rem;
   border-radius: 1rem;
   background: var(--white);
   padding: 1.2rem;
@@ -147,10 +147,16 @@ input[type=number] {
 }
 
 @media screen and (max-width: 54rem) {
+
+  .section {
+    height: unset;
+  }
+
   .section__container {
     flex-direction: column;
     width: 100%;
     flex: auto;
+    height: unset;
   }
 
   .section__title {
@@ -173,11 +179,11 @@ input[type=number] {
     gap: 0.8rem;
   }
 
-  .section__container-right__button{
+  .section__container-right__button {
     font-size: 1.4rem;
   }
 
-  .section__container-right{
+  .section__container-right {
     /* margin-bottom: 1rem; */
   }
 }
